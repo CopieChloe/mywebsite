@@ -61,18 +61,13 @@
         font-size: 1.7rem;
     }
 
-    .project_description {
-        font-size: 1.4rem;
-    }
+
 
     #menu {
         margin-top: 5vh;
     }
 
-    .website_title {
-        transform: translateY(-300px);
-    }
-
+ 
     .contactcalltoaction {
         font-size: 40px;
     }

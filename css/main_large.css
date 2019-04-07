@@ -61,8 +61,6 @@
         font-size: 1rem;
     }
 
-  
-
     .resume_link {
         margin-top: 80px;
     }
@@ -75,32 +73,19 @@
         margin-top: 80px;
     }
 
-    .website_caption_oudart {
-        height: 400px;
-        width: 200px;
-    }
-
-    .website_caption_odconseil {
-        height: 300px;
-        width: 750px;
-    }
-
-    .article_title {
-        font-weight: normal;
-    }
-
-    .article_paragraph {
-        font-size: 0.9rem;
-    }
-
     .remonter_link {
         display: flex;
         justify-content: flex-start;
     }
 
-    .project_description {
-        font-size: 1rem;
+    .website {
+        width: 50%;
     }
+
+    .website:hover .project_description {
+        display: block!important;
+        z-index: 42;
+    }    
 
     .contact_text {
         font-size: 1rem; 
