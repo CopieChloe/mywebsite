@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1000px) {
+    footer {
+    position: relative!important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    z-index: 42;
+    }
+
+    .retrouvezMoi {
+        display: inline-block;
+    }
+
+    .remonter {
+        display: none;
+    }
+}

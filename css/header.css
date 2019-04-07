@@ -1,0 +1,71 @@
+header {
+    background-color: transparent;
+    height: 250px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0!important;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    display: none;
+}
+
+#name {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#imgcode {
+    height: 150px;
+}
+ 
+#round {
+    height: 230px;
+    z-index: -1;    
+}
+ 
+#crossout {
+    height: 80px;    
+}
+
+#arrow {
+    height: 130px;
+    transform: translate(-200px, -100px);
+}
+
+#gif {
+    height: 150px;
+}
+
+#gif>iframe {
+    border: none;
+}
+
+#underline {
+    width: 70%;
+    transform: translate(-50px, 100px);
+}
+
+
+
+    
+
+

@@ -1,0 +1,11 @@
+/* Responsive webdesign for large devices */
+@media only screen and (min-width: 1000px) {
+    header {
+        margin-top: 5vh;
+    }
+
+    #underline {
+        transform: translateX(-320px) translateY(20px) scale(-0.4);
+        
+    }
+}

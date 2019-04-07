@@ -1,0 +1,141 @@
+/* Responsive webdesign for large devices */
+@media only screen and (min-width: 1000px) {
+
+    .leave {
+        filter: blur(2px);
+    }
+
+    .leavediv {
+        width: 60%;
+        height: 60%;
+        z-index: 43;
+        margin-left: 20%;
+        position: absolute;
+        display: none;
+        justify-content: center;
+    }
+
+    #pagetitle {
+        font-size: 60px;
+        height: 120px;
+    }
+
+    #introtext {
+        padding: 0 100px;
+    }
+
+    .intro_paragraph {
+        top: 0!important;
+    }
+
+    .main-content {
+        margin-top: 50px;
+    }
+
+    #portfolioheader #pagetitle {
+        font-size: 50px;
+    }
+
+    #picture {
+        transform: scale(0.6);
+    }
+
+    .fadein {
+    font-size: 12px;
+    max-height: 50px;
+    }
+
+    .intro_paragraph {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tarifs_intro,
+    .button_div,
+    #content_vitrine,
+    #content_ecommerce,
+    #options,
+    .outro_txt {
+        font-size: 1rem;
+    }
+
+  
+
+    .resume_link {
+        margin-top: 80px;
+    }
+
+    .resume_div .text {
+        font-size: 1rem;
+    }
+
+    #portfoliocontent {
+        margin-top: 80px;
+    }
+
+    .website_caption_oudart {
+        height: 400px;
+        width: 200px;
+    }
+
+    .website_caption_odconseil {
+        height: 300px;
+        width: 750px;
+    }
+
+    .article_title {
+        font-weight: normal;
+    }
+
+    .article_paragraph {
+        font-size: 0.9rem;
+    }
+
+    .remonter_link {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .project_description {
+        font-size: 1rem;
+    }
+
+    .contact_text {
+        font-size: 1rem; 
+        display: flex;
+        align-items: center;
+    }
+
+    .adresse_physique {
+        margin-top: 100px;
+    }
+
+    .titre_formulaire,
+    .texte_carte_visite {
+        font-size: 1.3rem;
+        text-align: start;
+    }
+
+    label {
+        font-size: 1rem!important;
+    }
+
+    .contact_form {
+        margin-top: 100px!important;
+    }
+
+    .div_carte_visite {
+        margin-top: 60px;
+    }
+
+    .image_carte_visite {
+        width: 40vw;
+    }
+
+    .mentionslegales {
+        display: block;
+    }
+
+}

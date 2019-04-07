@@ -1,0 +1,131 @@
+/* Responsive webdesign for middle sized devices */
+@media only screen and (min-width: 768px) { 
+    .main-content {
+        padding-top: 50px!important;
+    }
+    main {        
+        display: flex;
+        flex-direction: row;
+    }
+ 
+    #divtopad {
+        padding-top: 130px;
+    }
+ 
+    .pagecontent {
+        padding-left: 50px;
+    }
+ 
+    a:hover, 
+    a:active, 
+    a:focus {
+        text-decoration: none !important; 
+        color: black !important;
+    }
+ 
+    #picture {
+        padding: 0;
+        margin: 15px 0 0 0;       
+    } 
+
+    #introtext {
+        height: 20vh;
+    }
+ 
+    .fadein {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .intro_paragraph {
+        font-size: 1.7rem;
+        padding: 30px;
+    }
+
+    .tarifs_intro,
+    .button_div,
+    #content_vitrine,
+    #content_ecommerce,
+    #options,
+    .outro_txt {
+        font-size: 1.3rem;
+    }
+
+    #options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .resume_div .text {
+        font-size: 1.7rem;
+    }
+
+    .project_description {
+        font-size: 1.4rem;
+    }
+
+    #menu {
+        margin-top: 5vh;
+    }
+
+    .website_title {
+        transform: translateY(-300px);
+    }
+
+    .contactcalltoaction {
+        font-size: 40px;
+    }
+
+    .contact_text {
+        font-size: 30px;
+    }
+
+    .contact_form {
+        width: 100vw;
+    }
+
+    .titre_formulaire {
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+
+    .input_div .input {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .input_div label {
+       font-size: 2rem;
+    }
+
+    .btn-info {
+        min-height: 7vh;
+        width: 25vw;
+        font-size: 2rem;
+        font-family: 'Montserrat';
+        vertical-align: center;
+    } 
+
+    .alert {
+        margin-top: 5vh;
+    }
+
+    .texte_carte_visite {
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+
+
+
+    .link_carte_visite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        object-fit: cover;
+    }
+
+    .div_carte_visite {
+        align-items: flex-start;
+    }
+}

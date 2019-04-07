@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) { 
+    footer { 
+        bottom: 0px;
+        height: 100px;
+        font-size: 30px;
+    }
+    
+    .retrouvezMoi {
+        display: inline-block;
+    }
+    
+    .linkedin_footer {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fa-arrow-up {
+        font-size: 1.6rem;
+    }
+    }

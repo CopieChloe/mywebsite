@@ -1,0 +1,61 @@
+footer {     
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    height: 75px;
+    position: fixed!important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+.remonter {
+    width: 100%;
+    padding-right: 10px;
+    height: 25px;
+}
+
+.remonter_link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.remonter_texte {
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    vertical-align: right;
+}
+
+.fa-arrow-up {
+    font-size: 1.2rem;
+}
+
+.fa-arrow-up, 
+.remonter_texte {
+    line-height: 25px;
+    height: 25px;
+}
+
+.retrouvezMoi {
+    display: none;
+}
+
+.linkedin_footer {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+ 
+
+
+

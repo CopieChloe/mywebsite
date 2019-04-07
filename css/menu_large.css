@@ -1,0 +1,45 @@
+
+@media only screen and (min-width: 900px) {
+    .menu {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    #menu {
+        width: 35%;
+        right: 0;
+        position: fixed;
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 0px!important;
+        transform: translateX(-5vw);
+        background-color: transparent;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {  
+    .navlink {
+        font-weight: normal;
+    }
+
+    #menu {
+        text-align: end;
+    }    
+
+    li.row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .spread {
+        display: flex;
+        border: 1px solid black;
+        height: 1px;
+        line-height: 1px;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+    #dropdown_menu {
+        display: none;
+    }
+    
+    #menu .menu li .navlink {
+        font-size: 50px;
+    }
+
+    #menu {
+        height: 70px;
+        top: 0px;
+        position: sticky;
+        padding: 0; 
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: center; 
+        max-width: 100%!important;
+        background-color: white;
+        z-index: 42;
+    }
+
+    .spread {
+        display: none;
+    }
+}
